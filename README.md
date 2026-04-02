@@ -2,7 +2,7 @@
 
 ![S3 with Lambda](diagram.png)
 
-👉 **[View the Activity Document](https://docs.google.com/presentation/d/1vfQ0qI-G7ruC0kdGOw7oXpgSLZpcHanR/edit?usp=sharing&ouid=107817393136529843705&rtpof=true&sd=true)**
+👉 **[View the Activity Document](https://docs.google.com/document/d/1iWojNiy-rgtyBe0IhupuZA5dTxc4pcOv/edit)**
 
 This activity demonstrates how to:  
 - Automatically trigger a Lambda function when a file is uploaded to an S3 bucket.  
