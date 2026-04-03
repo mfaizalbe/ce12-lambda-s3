@@ -57,3 +57,26 @@ In this activity, AWS automatically added the policy when you created the S3 tri
 😸 Should you want to try the activity and have trouble finding a cat photo, feel free to use this one:
 
 ![Doraemon](cat.jpg)
+
+---
+
+## ⚠️ Things to Look Out For
+
+While doing this activity, here are a few things to check:
+
+- 🐍 **Python indentation**  
+  Python is sensitive to indentation. Make sure your code blocks are properly aligned, otherwise the Lambda function may fail to run.
+
+- 📁 **S3 folder (prefix) name**  
+  The event trigger was configured with the prefix `uploads/`.  
+  Make sure the file is uploaded **inside the `uploads/` folder**, otherwise the Lambda function will not be triggered.
+
+- 🚀 **Deploy the Lambda code**  
+  After modifying the Lambda function code, remember to click **Deploy**.  
+  If you forget this step, the new code will not run.
+
+- 📂 **Correct bucket selection**  
+  Ensure the file is uploaded to the **correct S3 bucket** that is connected to the Lambda trigger.
+
+- 🔎 **Check CloudWatch logs**  
+  If the Lambda does not run, check the **CloudWatch logs** in the Lambda **Monitor** tab to see errors or event details.
